@@ -43,11 +43,11 @@ function generatepass(){
 copyicon.addEventListener("click", ()=>{
     if(passbox.value != "" && passbox.value.length >=1){
         navigator.clipboard.writeText(passbox.value);
-        copyicon.innerText="check";
-        copyicon.title = "Password Copied";
-        setTimeout(() => {
-        copyicon.innerText="content_copy";
-        copyicon.title="";
-    }, 3000);
+    //     copyicon.innerText="check";
+    //     copyicon.title = "Password Copied";
+    //     setTimeout(() => {
+    //     copyicon.innerText="content_copy";
+    //     copyicon.title="";
+    // }, 3000);
 }
 })
