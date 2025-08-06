@@ -50,9 +50,7 @@ git clone https://github.com/username/password-crafter.git
 cd password-crafter
 ```
 ## Live Demo:
-Visit the live demo: 
-https://rabbanali1122.github.io/Password_generator
-
+Visit the live demo: https://rabbanali1122.github.io/password-crafter-js/
 
 ## 📸 Screenshots
 
