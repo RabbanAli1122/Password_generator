@@ -1,26 +1,70 @@
-# Password_generator
+# 🧾 Password Crafter  
 
-## Demo
-https://github.com/user-attachments/assets/54b9c33f-43c1-46a2-bc89-59e19fff0679
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-rabbanali1122.github.io-blue)](https://rabbanali1122.github.io/Password_generator/)
+[![Python](https://img.shields.io/badge/Python-3.7%2B-blue.svg)](https://www.python.org/)
+
+## ✅ Features
+
+- Generate secure, random passwords instantly
+- Choose password length (1–30 characters)
+- Toggle lowercase, uppercase, numbers, and symbols
+- Copy password to clipboard with a single click
+- Responsive and modern UI using custom fonts and icons
+
+## 🛠️ How It Works
+
+```js
+function generatepass(){
+    let genpass = "";
+    let all_char = "";
+    all_char += lowercase.checked ? lowerchar : "";
+    all_char += uppercase.checked ? upperchar : "";
+    all_char += symbols.checked ? all_symbols : "";
+    all_char += numbers.checked ? all_numbers : "";
+
+    if (all_char.length === 0) return "";
+
+    for (let i = 1; i <= inputslider.value; i++) {
+        genpass += all_char.charAt(Math.floor(Math.random() * all_char.length));
+    }
+    return genpass;
+}
+```
 
 
-# Features
-- Random password generation 
-- Password length control (from 1 to 30 characters) 
-- Password character type control
-- The password can be copied directly
+## 📋 Requirements
+- Modern web browser
+- Internet connection (for Google Fonts and Icons)
 
-## Screenshots
-<img width="803" alt="Screenshot 2025-05-31 at 12 52 42 PM" src="https://github.com/user-attachments/assets/c1bd8d16-7b19-46ce-9ef1-af0a6e796b3b" />
-<img width="803" alt="Screenshot 2025-05-31 at 12 52 32 PM" src="https://github.com/user-attachments/assets/9bdbf271-ea34-4d4c-af50-fddf4f9fac76" />
-<img width="803" alt="Screenshot 2025-05-31 at 12 52 11 PM" src="https://github.com/user-attachments/assets/f773d19b-d052-4996-b525-52e714704f5d" />
+  
+## 📂 Files in Repository
+- index.html – Main HTML layout and structure
+- style.css – Responsive and styled CSS UI
+- script.js – Password generation and copy logic
+- LICENSE – MIT License
 
-## Technologies Used
-1. HTML5
-2. CSS3
-3. JavaScript (ES6)
-4. Google Fonts (Poppins)
-5. Google Symbols (content_copy)
+## 🚀 How to Run
+```
+# Clone the repository
+git clone https://github.com/username/password-crafter.git
+cd password-crafter
+```
+## Live Demo:
+Visit the live demo: 
+https://rabbanali1122.github.io/Password_generator
 
-## Acknowledgements
-Thanks to open-source inspirations and documentation that helped shape this mini project.
+
+## 📸 Screenshots
+
+1. <img width="616" height="731" alt="Screenshot 2025-08-06 at 10 03 47 PM" src="https://github.com/user-attachments/assets/ec444638-a446-40ac-b19d-61099bf3d476" />
+2. <img width="616" height="731" alt="Screenshot 2025-08-06 at 10 03 15 PM" src="https://github.com/user-attachments/assets/e89c8e87-728b-4f20-9e9b-cfc93586138b" />
+3. <img width="616" height="731" alt="Screenshot 2025-08-06 at 10 03 06 PM" src="https://github.com/user-attachments/assets/7fb55c0e-d2d5-4af6-8583-13c89ea1e9d5" />
+
+## 🧠 Lessons Learned
+1. DOM manipulation for dynamic UI
+2. Event handling and user interaction in JavaScript
+3. Combining HTML, CSS, and JS for interactive tools
+
+
+## 📄 License
+This project is licensed under the MIT License. See the LICENSE file for full details.
