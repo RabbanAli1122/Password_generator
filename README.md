@@ -1,6 +1,6 @@
 # 🧾 Password Crafter  
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-rabbanali1122.github.io-blue)](https://rabbanali1122.github.io/Password_generator/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-rabbanali1122.github.io-blue)](https://rabbanali1122.github.io/password-crafter-js/)
 [![Python](https://img.shields.io/badge/Python-3.7%2B-blue.svg)](https://www.python.org/)
 
 ## ✅ Features
