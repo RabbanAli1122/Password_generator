@@ -40,10 +40,11 @@ function generatepass(){
 
   
 ## 📂 Files in Repository
-- index.html – Main HTML layout and structure
-- style.css – Responsive and styled CSS UI
-- script.js – Password generation and copy logic
-- LICENSE – MIT License
+- ```index.html``` – Main HTML layout and structure
+- ```style.css``` – Responsive and styled CSS UI
+- ```script.js``` – Password generation and copy logic
+- ```LICENSE``` – MIT License
+- ```Readme.md``` - Contains information about repository
 
 ## 🚀 How to Run
 ```
